@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>About us</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./dist/img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header _lp">
+        <div class="header__content _container">
+            <a href="index.html" class="header__logo">
+                <img src="dist/img/logo.svg" alt="">
+            </a>
+            <div class="header__menu menu">
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="works.html" class="menu__link _link ">Works</a></li>
+                        <li><a href="behind.html" class="menu__link _link">Process</a></li>
+                        <li><a href="about-us.html" class="menu__link _link">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="page about-us-page">
+        <div class="about-us-page__container _container">
+            <div class="about-us-page__body">
+                <div class="about-us-page__top">
+                    <h1 class="about-us-page__title _title">
+                        We are creatives who are finding visual ways to express ideas through 3D & Web<br> and covering the
+                        entire pipeline from initial concepting to final production.
+                    </h1>
+                </div>
+                <div class="about-us-page__video main-work__video _video">
+                    <iframe src="https://player.vimeo.com/video/397209841" title="Проект со встроенным содержимым" frameborder="0" allowfullscreen="allowfullscreen" class="embed-content"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content _container">
+            <div class="footer__top top-footer">
+                <h4 class="top-footer__title">СGET IN TOUCH</h4>
+                <a href="tel:380951359610" class="top-footer__phone">+38 095 135 96 10</a>
+                <ul class="fullscreen__list fullscreen__list_main top-footer__list">
+                    <li><a href="" class="fullscreen__link">Viber</a></li>
+                    <li><a href="https://t.me/echostudioo" class="fullscreen__link">Telegram</a></li>
+                    <li><a href="" class="fullscreen__link">WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="footer__bottom bottom-footer">
+                <ul class="bottom-footer__list">
+                    <li><a href="https://instagram.com/echostudio.xyz?igshid=1df1su0onyx0k" class="bottom-footer__link"><span>Instagram</span></a>
+                    </li>
+                    <li><a href="https://www.behance.net/echostudio2"
+                           class="bottom-footer__link"><span>Behance</span></a></li>
+                    <li><a href="https://vimeo.com/user137268402" class="bottom-footer__link"><span>Vimeo</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copy">©2021 Echo Studio. All rights reserved.</div>
+        </div>
+    </footer>
+    <div class="feedback-form">
+        <div class="feedback-form__wrapper">
+            <div class="feedback-form__body">
+                <div class="feedback-form__container _container">
+                    <div class="feedback-form__head">
+                        <h2 class="feedback-form__title _title">Хотите поговорить?
+                        </h2>
+                        <div class="feedback-form__subtitle _subtitle">Начнем с некоторых деталей</div>
+                        <a class="feedback-form__close _close">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="feedback-form__main main-feedback-form">
+                        <div class="main-feedback-form__body">
+                            <div class="main-feedback-form__title">Меня интересует ...</div>
+                            <form action="#" class="main-feedback-form__form form js-feedback-form">
+                                <div class="form__line form__line_checkbox">
+                                    <label class="checkbox">
+                                        <input data-error="Ошибка" class="checkbox__input" checked type="checkbox"
+                                               value=`Web-Разработка` name='choose'>
+                                        <a class="checkbox__text"><span>Web-Разработка</span></a>
+                                    </label>
+                                    <label class="checkbox">
+                                        <input data-error="Ошибка" class="checkbox__input" type="checkbox"
+                                               value=`3D-графика` name='choose'>
+                                        <a class="checkbox__text"><span>3D-графика</span></a>
+                                    </label>
+                                    <label class="checkbox">
+                                        <input data-error="Ошибка" class="checkbox__input" type="checkbox"
+                                               value=`Брендинг` name='choose'>
+                                        <a class="checkbox__text"><span>Брендинг</span></a>
+                                    </label>
+                                    <label class="checkbox">
+                                        <input data-error="Ошибка" class="checkbox__input" type="checkbox"
+                                               value=`Стратегия` name='choose'>
+                                        <a class="checkbox__text"><span>Стратегия</span></a>
+                                    </label>
+                                    <label class="checkbox">
+                                        <input data-error="Ошибка" class="checkbox__input" type="checkbox"
+                                               value=`Аутстафф` name='choose'>
+                                        <a class="checkbox__text"><span>Аутстафф</span></a>
+                                    </label>
+                                </div>
+
+                                <div class="form__line">
+                                    <label for="name" class="form__label">Ваше имя</label>
+                                    <input id="name" autocomplete="off" type="text" name="name" data-error=""
+                                           data-value="" class="input _req">
+                                </div>
+                                <div class="form__line">
+                                    <label for="company" class="form__label">Компания</label>
+                                    <input id="company" autocomplete="off" type="text" name="company" data-error=""
+                                           data-value="" class="input">
+                                </div>
+                                <div class="form__line">
+                                    <label for="email" class="form__label">Email</label>
+                                    <input id="email" autocomplete="off" type="text" name="email" data-error=""
+                                           data-value="" class="input _req  _email">
+                                </div>
+                                <div class="form__line">
+                                    <label for="tel" class="form__label">Телефон</label>
+                                    <input id="tel" autocomplete="off" type="text" name="tel" data-error=""
+                                           data-value="" class="input _req _phone">
+                                </div>
+                                <div class="form__line">
+                                    <label for="aboutProduct" class="form__label">Расскажите о своем продукте</label>
+                                    <input id="aboutProduct" autocomplete="off" type="text" name="about" data-error=""
+                                           data-value="" class="input">
+                                </div>
+                                <div class="form__line form__line_btn">
+                                    <button type='submit' class='form__btn btn'><a><span
+                                            class="_text">Отправить</span><span class="_bg"></span></a></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__content _container">
+                    <div class="footer__top top-footer">
+                        <h4 class="top-footer__title">СGET IN TOUCH</h4>
+                        <a href="tel:380951359610" class="top-footer__phone">+38 095 135 96 10</a>
+                        <ul class="fullscreen__list fullscreen__list_main top-footer__list">
+                            <li><a href="" class="fullscreen__link">Viber</a></li>
+                            <li><a href="https://t.me/echostudioo" class="fullscreen__link">Telegram</a></li>
+                            <li><a href="" class="fullscreen__link">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom bottom-footer">
+                        <ul class="bottom-footer__list">
+                            <li><a href="https://instagram.com/echostudio.xyz?igshid=1df1su0onyx0k" class="bottom-footer__link"><span>Instagram</span></a>
+                            </li>
+                            <li><a href="https://www.behance.net/echostudio2"
+                                   class="bottom-footer__link"><span>Behance</span></a></li>
+                            <li><a href="https://vimeo.com/user137268402" class="bottom-footer__link"><span>Vimeo</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__copy">©2021 Echo Studio. All rights reserved.</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+<div class="popup popup_callback ">
+    <div class="popup__content">
+        <div class="popup__body">
+            <a class="popup__close"></a>
+            <div class="popup__title">Спасибо, что обратились <br> в Echo студию!</div>
+            <div class="popup__text">Мы свяжемся с Вами в ближайшее время.</div>
+            <a href="index.html" class="popup__btn btn"><span class="_text">На главную</span><span
+                    class="_bg"></span></a>
+        </div>
+    </div>
+</div>
+<div class="popup popup_massagename-message">
+    <div class="popup__content">
+        <div class="popup__body">
+            <div class="popup__close"></div>
+        </div>
+    </div>
+</div>
+<div class="popup popup_video">
+    <div class="popup__content">
+        <div class="popup__body">
+            <div class="popup__close popup__close_video"></div>
+            <div class="popup__video _video"></div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="./dist/js/vendors.js"></script>
+<script src="./dist/js/app.js"></script>
+</body>
+</html>
